@@ -33,19 +33,19 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-8 md:px-24 border-b border-slate-200">
-      <p className="text-sky-500 text-sm font-mono mb-2 tracking-widest uppercase">Projects</p>
-      <h2 className="text-3xl font-bold text-slate-900 mb-10">Things I've built</h2>
+    <section id="projects" className="py-24 px-8 md:px-24 border-b border-white/10">
+      <p className="text-indigo-400 text-sm font-mono mb-2 tracking-widest uppercase">Projects</p>
+      <h2 className="text-3xl font-bold text-white mb-10">Things I've built</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
-          <a key={project.title} href={project.link} className="group p-6 bg-white border border-slate-200 rounded-xl hover:border-sky-400 hover:shadow-md transition-all">
-            <h3 className="text-slate-900 font-semibold text-lg mb-2 group-hover:text-sky-500 transition-colors">
+          <a key={project.title} href={project.link} className="group p-6 bg-white/5 border border-white/10 rounded-xl hover:border-indigo-500/50 transition-all">
+            <h3 className="text-white font-semibold text-lg mb-2 group-hover:text-indigo-300 transition-colors">
               {project.title} →
             </h3>
-            <p className="text-slate-500 text-sm leading-relaxed mb-4">{project.description}</p>
+            <p className="text-white/50 text-sm leading-relaxed mb-4">{project.description}</p>
             <div className="flex flex-wrap gap-2">
               {project.tags.map((tag) => (
-                <span key={tag} className="text-xs font-mono text-sky-500">{tag}</span>
+                <span key={tag} className="text-xs font-mono text-indigo-400/70">{tag}</span>
               ))}
             </div>
           </a>

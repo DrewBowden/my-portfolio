@@ -13,9 +13,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 h-16 bg-white/95 backdrop-blur-sm border-b border-slate-200">
+    <nav className="fixed top-0 left-0 right-0 z-50 h-16 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/10">
       <div className="max-w-5xl mx-auto px-6 h-full flex items-center justify-between">
-        <Link href="/" className="text-slate-900 font-semibold text-lg hover:text-sky-500 transition-colors">
+        <Link href="/" className="text-white font-semibold text-lg hover:text-indigo-300 transition-colors">
           Drew Bowden
         </Link>
 
@@ -25,14 +25,14 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-slate-600 hover:text-sky-500 text-sm transition-colors"
+              className="text-white/60 hover:text-indigo-300 text-sm transition-colors"
             >
               {link.label}
             </a>
           ))}
           <Link
             href="/tracker"
-            className="px-4 py-1.5 bg-sky-500 hover:bg-sky-400 text-white text-sm font-medium rounded-full transition-colors"
+            className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium rounded-full transition-colors"
           >
             Job Tracker
           </Link>
@@ -40,7 +40,7 @@ export default function Navbar() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-slate-600 hover:text-sky-500 text-xl transition-colors"
+          className="md:hidden text-white/60 hover:text-indigo-300 text-xl transition-colors"
           onClick={() => setOpen((prev) => !prev)}
           aria-label="Toggle menu"
         >
@@ -50,13 +50,13 @@ export default function Navbar() {
 
       {/* Mobile dropdown */}
       {open && (
-        <div className="md:hidden bg-white border-b border-slate-200 px-6 py-4 flex flex-col gap-4">
+        <div className="md:hidden bg-[#0a0a0a] border-b border-white/10 px-6 py-4 flex flex-col gap-4">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="text-slate-600 hover:text-sky-500 text-sm transition-colors"
+              className="text-white/60 hover:text-indigo-300 text-sm transition-colors"
             >
               {link.label}
             </a>
@@ -64,7 +64,7 @@ export default function Navbar() {
           <Link
             href="/tracker"
             onClick={() => setOpen(false)}
-            className="self-start px-4 py-1.5 bg-sky-500 hover:bg-sky-400 text-white text-sm font-medium rounded-full transition-colors"
+            className="self-start px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium rounded-full transition-colors"
           >
             Job Tracker
           </Link>

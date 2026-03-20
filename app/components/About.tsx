@@ -1,9 +1,9 @@
 export default function About() {
   return (
-    <section id="about" className="py-24 px-8 md:px-24 border-b border-slate-200">
-      <p className="text-sky-500 text-sm font-mono mb-2 tracking-widest uppercase">About Me</p>
-      <h2 className="text-3xl font-bold text-slate-900 mb-8">Who I am</h2>
-      <div className="max-w-2xl text-slate-500 text-lg leading-relaxed space-y-4">
+    <section id="about" className="py-24 px-8 md:px-24 border-b border-white/10">
+      <p className="text-indigo-400 text-sm font-mono mb-2 tracking-widest uppercase">About Me</p>
+      <h2 className="text-3xl font-bold text-white mb-8">Who I am</h2>
+      <div className="max-w-2xl text-white/60 text-lg leading-relaxed space-y-4">
         <p>
           I'm a Junior Software Developer at Adrian Flux Insurance Services,
           where I've spent the last 3.5 years building and maintaining
