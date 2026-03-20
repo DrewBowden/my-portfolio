@@ -64,12 +64,9 @@ export default function Tracker() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-50 px-8 md:px-24 py-16">
+    <main className="min-h-screen bg-slate-50 px-8 md:px-24 pb-16 pt-32">
       <div className="flex items-start justify-between mb-10">
         <div>
-          <a href="/" className="text-sky-500 text-sm font-mono hover:text-sky-400 transition-colors mb-4 block">
-            ← Back to portfolio
-          </a>
           <h1 className="text-4xl font-bold text-slate-900 mb-2">Job Tracker</h1>
           <p className="text-slate-500">Keep track of every application in one place.</p>
         </div>
