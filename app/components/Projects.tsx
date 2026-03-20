@@ -1,31 +1,36 @@
 const projects = [
   {
     title: "Recruitment Management System",
-    description: "Full end-to-end applicant tracking system with automated email & SMS notifications, new starter onboarding, and full hiring workflow management.",
+    description:
+      "Full end-to-end applicant tracking system with automated email & SMS notifications, new starter onboarding, and full hiring workflow management.",
     tags: ["Perl", "JavaScript", "MySQL", "HTML", "CSS"],
     link: "#",
   },
   {
     title: "Internal Helpdesk Ticketing System",
-    description: "Built from scratch — users can raise tickets, attach files, hold threaded conversations with technicians, with automated replies throughout.",
+    description:
+      "Built from scratch — users can raise tickets, attach files, hold threaded conversations with technicians, with automated replies throughout.",
     tags: ["Perl", "JavaScript", "MySQL"],
     link: "#",
   },
   {
     title: "Automated Reporting Pipelines",
-    description: "Perl and MySQL pipelines delivering daily, weekly, and monthly dashboards to stakeholders — fully automated, no manual effort required.",
+    description:
+      "Perl and MySQL pipelines delivering daily, weekly, and monthly dashboards to stakeholders — fully automated, no manual effort required.",
     tags: ["Perl", "MySQL"],
     link: "#",
   },
   {
     title: "Intranet Page Migration",
-    description: "Led a database migration project, authoring Perl scripts to migrate, validate, and test hundreds of intranet pages ahead of a full system transition.",
+    description:
+      "Led a database migration project, authoring Perl scripts to migrate, validate, and test hundreds of intranet pages ahead of a full system transition.",
     tags: ["Perl", "MySQL"],
     link: "#",
   },
   {
     title: "VDU Assessment Rebuild",
-    description: "Rebuilt VDU assessment pages for office, home, and hybrid workers — migrating from Bootstrap 3 and legacy code to Bootstrap 5.3 with a modernised UI.",
+    description:
+      "Rebuilt VDU assessment pages for office, home, and hybrid workers — migrating from Bootstrap 3 and legacy code to Bootstrap 5.3 with a modernised UI.",
     tags: ["Bootstrap", "JavaScript", "HTML", "CSS"],
     link: "#",
   },
