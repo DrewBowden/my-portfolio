@@ -30,12 +30,6 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <Link
-            href="/tracker"
-            className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium rounded-full transition-colors"
-          >
-            Job Tracker
-          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -61,13 +55,6 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <Link
-            href="/tracker"
-            onClick={() => setOpen(false)}
-            className="self-start px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium rounded-full transition-colors"
-          >
-            Job Tracker
-          </Link>
         </div>
       )}
     </nav>
