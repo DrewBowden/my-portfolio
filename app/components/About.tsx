@@ -6,20 +6,20 @@ export default function About() {
       <div className="max-w-2xl text-white/60 text-lg leading-relaxed space-y-4">
         <p>
           I'm a Junior Software Developer at Adrian Flux Insurance Services,
-          where I've spent the last 3.5 years building and maintaining
-          business-critical internal tools — from recruitment systems to
-          high-traffic intranet pages used across the business every day.
+          where I've spent six years building and maintaining business-critical
+          internal tools - from recruitment systems to high-traffic intranet
+          pages used across the business every day.
         </p>
         <p>
           I started out in customer service and taught myself to code in my own
-          time, which led to an internal move into the dev team. That
-          self-driven attitude hasn't stopped — I'm currently completing a
-          part-time BSc in Computing & IT at the Open University alongside work,
-          and working through a full-stack web development bootcamp.
+          time, earning an internal move into the dev team. Outside of work I've
+          independently built and launched a full-stack AI-powered web
+          application with real users and Stripe payments - built entirely from
+          scratch.
         </p>
         <p>
-          Outside of work I enjoy building computers, working on side projects,
-          and writing — always finding new ways to keep learning.
+          I'm currently completing a part-time BSc in Computing & IT at the
+          Open University, and always working on something new.
         </p>
       </div>
     </section>
